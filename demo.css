@@ -1,0 +1,11 @@
+:root { font-family: Arial, sans-serif; color: #234361; background: #d9e3eb; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1160px; margin: 30px auto; background: #f5fafd; padding: 24px; box-shadow: 0 6px 28px #18334d26; }
+header { display: flex; align-items: baseline; flex-wrap: wrap; gap: 16px; margin-bottom: 24px; }
+h1 { font-size: 20px; margin: 0; }
+header p, footer { font: 12px monospace; }
+header a { margin-left: auto; }
+a { color: #186599; }
+footer { margin-top: 24px; }
+@media (max-width: 600px) { main { margin: 0; padding: 12px; } }
