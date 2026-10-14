@@ -1,8 +1,8 @@
-# Custom GitHub Theme
+# Repoport
 
-A small framework for displaying public GitHub profiles and repositories inside another website. Native web components, isolated styles, and in-page navigation, with a fixed blueprint design.
+A GitHub browsing framework for your website. Embed public profiles, explore repositories, and read code without leaving the page. Built with native web components and a blueprint theme.
 
-[Live demo](https://reegoja.github.io/custom-github-theme/) / [Multiple profiles](https://reegoja.github.io/custom-github-theme/examples/multiple.html) / [Download](https://github.com/ReegoJA/custom-github-theme/archive/refs/heads/main.zip)
+[Live demo](https://reegoja.github.io/repoport/) / [Multiple profiles](https://reegoja.github.io/repoport/examples/multiple.html) / [Download](https://github.com/ReegoJA/repoport/archive/refs/heads/main.zip)
 
 Created October 12, 2026 / Version 0.1.0 / MIT / Reego John-Annaselvan
 
@@ -25,7 +25,7 @@ Copy the three files in `src/` into a `github-theme/` directory on your site, al
 <github-profile username="octocat"></github-profile>
 ```
 
-No dependencies, API key, or build step required. Serve over HTTP or HTTPS. In an SSR application, import the module only in the browser.
+No runtime dependencies or build step. Load in the browser over HTTP or HTTPS.
 
 Change the `username` attribute to load another profile. Multiple elements have separate navigation state and isolated Shadow DOM styles. Edit the component markup and CSS directly to adapt the presentation.
 
@@ -67,7 +67,7 @@ Requests go directly to `api.github.com` and `avatars.githubusercontent.com`. No
 | `scripts/serve.js` | Local demo server |
 | `tests/github.test.js` | API-client tests |
 
-For development, use Node.js 22+: `npm start` serves the demo at `http://127.0.0.1:4174`, `npm test` runs the tests. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Development: Node.js 22+, `npm start`, `npm test`. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Credits and license
 
@@ -79,6 +79,4 @@ GitHub provides the REST API, avatar service, and interface inspiration. This pr
 
 Style references: [awesome-guidelines](https://github.com/Kristories/awesome-guidelines), by Kristories and contributors, Google's [JavaScript](https://google.github.io/styleguide/jsguide.html) and [HTML/CSS](https://google.github.io/styleguide/htmlcssguide.html) guides.
 
-## History
-
-Initial release: October 12, 2026. See [CHANGELOG.md](CHANGELOG.md) for release details.
+[Release history](CHANGELOG.md).
