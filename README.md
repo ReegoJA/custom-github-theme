@@ -2,9 +2,9 @@
 
 A small framework for displaying public GitHub profiles and repositories inside another website. Native web components, isolated styles, and in-page navigation, with a fixed blueprint design.
 
-[Live demo](https://reegoja.github.io/custom-github-theme/) · [Multiple profiles](https://reegoja.github.io/custom-github-theme/examples/multiple.html) · [Download](https://github.com/ReegoJA/custom-github-theme/archive/refs/heads/main.zip)
+[Live demo](https://reegoja.github.io/custom-github-theme/) / [Multiple profiles](https://reegoja.github.io/custom-github-theme/examples/multiple.html) / [Download](https://github.com/ReegoJA/custom-github-theme/archive/refs/heads/main.zip)
 
-Created October 12, 2026 · Version 0.1.0 · MIT · Reego John-Annaselvan
+Created October 12, 2026 / Version 0.1.0 / MIT / Reego John-Annaselvan
 
 ![GitHub profile browser with blueprint styling](assets/demo.jpg)
 
